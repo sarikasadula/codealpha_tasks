@@ -1,48 +1,34 @@
-# 🚢 Task 2 - Titanic Dataset Exploratory Data Analysis (EDA)
+# 📊 CodeAlpha Data Analytics Internship Tasks
 
-## 📌 Objective
-
-The objective of this project is to perform Exploratory Data Analysis (EDA) on the Titanic Dataset to identify patterns, trends, and factors that influenced passenger survival.
+Welcome to my CodeAlpha Data Analytics Internship repository. This repository contains all tasks completed during the internship, showcasing skills in data collection, data analysis, data visualization, and Python programming.
 
 ---
 
-## 📂 Dataset
+## 👩‍💻 Intern Details
 
-Dataset Used: Titanic Dataset
-
-The dataset contains information about passengers such as:
-
-- Passenger ID
-- Survival Status
-- Passenger Class
-- Name
-- Gender
-- Age
-- Fare
-- Cabin
-- Embarked Port
-- Family Information
+**Name:** Sadula Sarika  
+**Role:** Data Analytics Intern  
+**Organization:** CodeAlpha
 
 ---
 
-## 🛠️ Technologies Used
+## 📂 Repository Structure
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-
----
-
-## 📁 Project Structure
-
-Task-2-EDA-Titanic/
+```text
+codealpha_tasks/
 │
-├── Titanic-Dataset.csv
-├── EDA_Titanic.ipynb
-├── Cleaned_Titanic_Data.csv
-├── outputs/
+├── Task-1-Web-Scraping/
+│   ├── scraper.py
+│   ├── books.csv
+│   ├── output.png
+│   ├── requirements.txt
+│   └── README.md
+│
+├── EDA-Titanic/
+│   ├── Titanic-Dataset.csv
+│   ├── Cleaned_Titanic_Data.csv
+│   ├── eda.ipynb
+│   ├── README.md
 │   ├── missing_values_heatmap.png
 │   ├── survival_count.png
 │   ├── gender_survival.png
@@ -53,159 +39,104 @@ Task-2-EDA-Titanic/
 │   └── fare_outliers.png
 │
 └── README.md
-
----
-
-## 🔍 Exploratory Data Analysis Performed
-
-### 1. Data Exploration
-
-- Displayed first five rows
-- Checked dataset dimensions
-- Examined column names
-- Verified data types
-- Generated dataset information
-- Generated descriptive statistics
-
----
-
-### 2. Missing Value Analysis
-
-Missing Values Found:
-
-| Column | Missing Values |
-|----------|----------|
-| Age | 177 |
-| Cabin | 687 |
-| Embarked | 2 |
-
-Visualized missing values using a heatmap.
-
----
-
-### 3. Survival Analysis
-
-Analyzed:
-
-- Overall survival count
-- Survival based on gender
-- Survival based on passenger class
-
----
-
-### 4. Distribution Analysis
-
-Visualized:
-
-- Age Distribution
-- Fare Distribution
-
-using histograms and density plots.
-
----
-
-### 5. Correlation Analysis
-
-Generated a correlation matrix to understand relationships between numerical features.
-
----
-
-### 6. Outlier Detection
-
-Detected outliers in Fare using a boxplot.
-
----
-
-### 7. Data Cleaning
-
-Performed the following preprocessing steps:
-
-- Filled missing Age values using mean.
-- Filled missing Embarked values using mode.
-- Removed Cabin column due to excessive missing values.
-- Checked for duplicate records.
-
----
-
-## 📊 Key Insights
-
-### Gender Survival
-
-- Female passengers had significantly higher survival rates than male passengers.
-
-### Passenger Class
-
-- First-class passengers had a greater chance of survival compared to second and third-class passengers.
-
-### Age Distribution
-
-- Most passengers were between 20 and 40 years old.
-
-### Fare Distribution
-
-- Fare data was highly skewed with several high-value outliers.
-
----
-
-## 📈 Visualizations Generated
-
-- Missing Values Heatmap
-- Survival Count Plot
-- Survival by Gender
-- Survival by Passenger Class
-- Age Distribution Histogram
-- Fare Distribution Histogram
-- Correlation Heatmap
-- Fare Outlier Boxplot
-
----
-
-## ▶️ How to Run
-
-### Install Required Libraries
-
-```bash
-pip install pandas numpy matplotlib seaborn
-```
-
-### Run the Notebook
-
-```bash
-jupyter notebook EDA_Titanic.ipynb
-```
-
-or run the Python script:
-
-```bash
-python EDA_Titanic.py
 ```
 
 ---
 
-## 📁 Output
+# 🚀 Tasks Completed
 
-The cleaned dataset is exported as:
+## 📚 Task 1: Web Scraping
+
+### Objective
+
+Extract book information from the Books to Scrape website using Python web scraping techniques.
+
+### Tools Used
+
+- Python
+- Requests
+- BeautifulSoup
+- Pandas
+
+### Key Features
+
+- Extracted book titles
+- Extracted prices
+- Extracted ratings
+- Stored data in CSV format
+
+### Output
+
+Generated:
+
+```text
+books.csv
+```
+
+---
+
+## 🚢 Task 2: Titanic Dataset Exploratory Data Analysis
+
+### Objective
+
+Perform Exploratory Data Analysis (EDA) on the Titanic Dataset to identify trends, patterns, and factors affecting passenger survival.
+
+### Tools Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+
+### Key Analysis
+
+- Data Exploration
+- Missing Value Analysis
+- Data Cleaning
+- Survival Analysis
+- Correlation Analysis
+- Outlier Detection
+- Data Visualization
+
+### Output
+
+Generated:
 
 ```text
 Cleaned_Titanic_Data.csv
 ```
 
+and multiple visualizations for insights.
+
 ---
 
-## 🎯 Learning Outcomes
+## 🛠️ Skills Demonstrated
 
+- Python Programming
 - Data Cleaning
-- Missing Value Handling
-- Exploratory Data Analysis
+- Data Analysis
 - Data Visualization
-- Correlation Analysis
-- Outlier Detection
-- Feature Understanding
+- Web Scraping
+- Exploratory Data Analysis (EDA)
+- Problem Solving
+- Data Interpretation
 
 ---
 
-## 👩‍💻 Author
+## 🎯 Internship Learning Outcomes
 
-**Sadula Sarika**
+Through these projects, I gained practical experience in:
 
-Data Analytics Intern – CodeAlpha
+- Collecting data from websites
+- Working with real-world datasets
+- Handling missing values
+- Creating meaningful visualizations
+- Extracting actionable insights from data
+- Building professional GitHub repositories
+
+---
+
+## ⭐ Acknowledgement
+
+Special thanks to **CodeAlpha** for providing this internship opportunity and hands-on experience in Data Analytics.
